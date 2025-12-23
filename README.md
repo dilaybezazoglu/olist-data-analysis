@@ -1,101 +1,127 @@
-# Olist Data Analysis Project  
-**Exploratory Data Analysis & Customer Behavior Insights (Python)**
+# 📊 Olist E-Commerce Data Analysis Project
 
-## 📌 Project Overview
-This project focuses on analyzing the **Olist Brazilian E-Commerce Dataset (2016–2018)** using Python.  
-The aim is to explore customer behavior, pricing patterns, delivery performance, and satisfaction metrics, and to answer **business-oriented analytical questions** through data analysis and visualization.
+This project is an end-to-end exploratory data analysis and statistical analysis project based on the **Olist Brazilian E-Commerce Dataset**.  
+The goal is to transform raw transactional data into meaningful business insights using Python-based data analysis and visualization techniques.
 
 ---
 
-## 🎯 Objectives
-- Analyze **order pricing behavior** and spending patterns  
-- Evaluate **delivery time performance** and its impact on customer satisfaction  
-- Understand **customer satisfaction drivers** using review scores  
-- Test business hypotheses using **statistical methods**
+## 🎯 Project Objective
+
+- Explore customer behavior, order patterns, delivery performance, and satisfaction metrics  
+- Identify relationships between spending, delivery time, and customer satisfaction  
+- Apply statistical tests to validate business hypotheses  
+- Build a clear analytical storyline from raw data to insights  
 
 ---
 
-## 📂 Dataset
-- **Source:** Olist Brazilian E-Commerce Dataset (Kaggle)  
-- **Time Period:** 2016–2018  
+## 📦 Dataset
 
-The dataset includes information on:
-- Orders
-- Customers
-- Products & categories
-- Payments
-- Delivery timelines
-- Customer reviews
+- **Source:** Olist Brazilian E-Commerce Public Dataset (Kaggle)  
+- **Period:** 2016 – 2018  
+- **Content:** Orders, customers, products, payments, reviews, and delivery information  
+
+The dataset consists of multiple relational tables connected via unique identifiers.
 
 ---
 
 ## 🛠️ Tools & Technologies
-- **Python**
-- **Pandas, NumPy**
-- **Matplotlib, Seaborn, Plotly**
-- **Jupyter Notebook / Google Colab**
-- **Statistical Testing (t-test, correlation analysis)**
+
+- Python (Pandas, NumPy, SciPy)
+- Data Visualization (Matplotlib, Seaborn, Plotly)
+- Jupyter Notebook / Google Colab
+- Statistical Analysis & Hypothesis Testing
 
 ---
 
-## 🔍 Analysis Structure
+## 📌 Project Structure & Analysis Flow
 
-### 1. Order Price Statistics
-- Average order price  
-- Median order price  
-- Price standard deviation  
-- Order price distribution (histogram)
-
----
-
-### 2. Product Category Distribution
-- Number of orders per product category (bar chart)  
-- Distribution of payment methods (credit card, debit card, boleto)
+### 1️⃣ Data Cleaning, Transformation & Merge Operations
+- Handling missing values and data type conversions  
+- Merging multiple relational tables into analysis-ready datasets  
+- Feature engineering for delivery time, spending, and satisfaction metrics  
 
 ---
 
-### 3. Delivery Time Statistics
-- Average delivery time  
-- Median delivery time  
+### 2️⃣ Exploratory Data Analysis & Visualizations
+High-level exploration of the dataset to understand distributions, trends, and anomalies.
+
+---
+
+### 3️⃣ Order Analysis
+- Order price statistics (mean, median, standard deviation)  
+- Distribution of order prices  
+- Order volume patterns  
+
+---
+
+### 4️⃣ Product Category Analysis
+- Order count by product category  
+- Average satisfaction scores across categories  
+- Category-based performance comparisons  
+
+---
+
+### 5️⃣ Delivery Time Analysis
+- Average and median delivery times  
 - Delivery time variability  
-- Boxplot analysis for delivery duration
+- Boxplots and distribution analysis  
 
 ---
 
-### 4. Customer Satisfaction Analysis
-- Average customer review score  
-- Median review score  
-- Overall satisfaction rate  
-- Comparison of satisfied vs. unsatisfied customers
+### 6️⃣ Customer Satisfaction Analysis
+- Average and median review scores  
+- Satisfaction rate analysis  
+- Distribution of customer ratings  
 
 ---
 
-### 5. Business Questions Explored
-- Do customers who spend more tolerate longer delivery times?
-- Does spending amount affect customer satisfaction?
-- Do satisfaction levels differ across product categories?
-- Does faster delivery lead to higher customer satisfaction?
+### 7️⃣ Business Question Analyses
+
+#### 🔹 Do customers who spend more tolerate longer delivery times?
+- Spending vs. delivery time comparison  
+- Behavioral tolerance analysis  
+
+#### 🔹 Does spending amount affect customer satisfaction?
+- Correlation analysis between order value and review score  
+
+#### 🔹 Do satisfaction levels vary across product categories?
+- Category-based satisfaction comparison  
+
+#### 🔹 Does faster delivery lead to higher satisfaction?
+- Delivery time vs. review score analysis  
 
 ---
 
-### 6. Statistical Tests
-- Hypothesis definition (null & alternative)
-- Group-based comparisons
-- Appropriate statistical test selection
-- Interpretation of results
+### 8️⃣ Statistical Testing
+- Hypothesis definition (null & alternative hypotheses)  
+- Group comparisons  
+- Appropriate statistical tests (t-test, chi-square where applicable)  
+- Interpretation of statistical results in business context  
 
 ---
 
-## 📈 Key Insights
-- Delivery time is a **strong driver** of customer satisfaction  
-- Higher spending does **not necessarily** increase tolerance for delays  
-- Customer satisfaction varies significantly across product categories  
-- Faster delivery generally correlates with higher review scores
+## 🔍 Key Insights
+
+- Delivery speed has a stronger impact on customer satisfaction than spending amount  
+- Certain product categories consistently receive higher satisfaction scores  
+- Higher spending does not always guarantee higher customer satisfaction  
+- Delays beyond a threshold significantly reduce customer ratings  
 
 ---
 
-## 🚀 Conclusion
-This project demonstrates an **end-to-end exploratory data analysis workflow**, combining descriptive statistics, data visualization, business reasoning, and statistical testing to extract actionable insights from real-world e-commerce data.
+## 📈 Conclusion
+
+This project demonstrates how structured exploratory analysis combined with statistical testing can uncover actionable insights from e-commerce data.  
+The findings can support decision-making in logistics optimization, customer experience improvement, and category-level strategy planning.
 
 ---
+
+## 👩‍💻 Author
+
+**Dilay Bezazoğlu**  
+Data Analyst  
+
+- Python | SQL | Data Visualization  
+- Exploratory Data Analysis & Statistical Analysis  
+- Business-focused data storytelling  
 
